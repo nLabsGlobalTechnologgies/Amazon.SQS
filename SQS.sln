@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQS.Publisher.ConsoleApp", "SQS.Publisher.ConsoleApp\SQS.Publisher.ConsoleApp.csproj", "{F4D3ADD4-2C49-4A76-AFDE-D22BC72FDB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQS.Consumer.ConsoleApp", "SQS.Consumer.ConsoleApp\SQS.Consumer.ConsoleApp.csproj", "{3F2AE54A-3513-4DFB-B810-DE9BFE21C7A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D3ADD4-2C49-4A76-AFDE-D22BC72FDB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D3ADD4-2C49-4A76-AFDE-D22BC72FDB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D3ADD4-2C49-4A76-AFDE-D22BC72FDB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D3ADD4-2C49-4A76-AFDE-D22BC72FDB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2AE54A-3513-4DFB-B810-DE9BFE21C7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2AE54A-3513-4DFB-B810-DE9BFE21C7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2AE54A-3513-4DFB-B810-DE9BFE21C7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2AE54A-3513-4DFB-B810-DE9BFE21C7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA0DA444-D426-4EDD-B209-07BD24FAF3E2}
+	EndGlobalSection
+EndGlobal
